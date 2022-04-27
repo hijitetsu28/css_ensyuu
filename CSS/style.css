@@ -1,0 +1,62 @@
+.parent {
+  width: 100%;
+}
+
+.title {
+  color: navy;
+  font-size: 20px;
+  margin: 15px;
+  display: inline-block;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+ul {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ul a {
+  text-decoration: none;
+  color: navy;
+}
+
+.field {
+  width: 100%;
+  position: relative;
+}
+
+.honbun {
+  font-size: 60px;
+  position: absolute;
+  top: 270px;
+}
+
+.underbar {
+  width: 75%;
+  height: 140px;
+  background: navy;
+  position: absolute;
+  top: 330px;
+}
+
+.main_img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.main_img img {
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+}
